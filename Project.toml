@@ -3,6 +3,11 @@ uuid = "3436b288-4852-497b-a497-0c05a700422f"
 authors = ["Caspar Bruenech <c.w.bruenech@pm.me> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+UnitfulAstro = "6112ee07-acf9-5e0f-b108-d242c714bf9f"
+
 [compat]
 julia = "1"
 
