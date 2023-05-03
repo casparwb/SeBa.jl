@@ -26,7 +26,7 @@ module SeBa
             success = make_seba(seba_path)
             if !success
                 @info "Unable to compile SeBa. Aborting."
-                return 0command_args
+                return command_args
             end
         end
 
